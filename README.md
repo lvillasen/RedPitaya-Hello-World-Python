@@ -3,11 +3,12 @@ Extremely simple scripts written in Python to control the RedPitaya board with i
 
 
 #### Memory Map: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
-
+```
   from periphery import MMIO
   regset = MMIO(0x40000030, 0xFF)
   regset.write16(0,3) # write 3 to LED register
   regset.close()
+```
 
 #### Other Python scripts to controls the RedPitaya board can be found here:
 - https://github.com/lvillasen/RedPitaya-Signal-Generator-Python
