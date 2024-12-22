@@ -20,6 +20,8 @@ and run it with
 python3 test.py
 ```
 
+The LEDs on the board will display the number 3 in binary, i.e., 00000011 and the number 3 will be printed on the terminal.
+
 
 
 
