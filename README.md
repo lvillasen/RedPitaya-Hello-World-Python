@@ -25,7 +25,7 @@ The LEDs on the board will display the number 15 in binary, i.e., 00001111 and t
 
 
 
-#### Other Python scripts to controls the RedPitaya board can be found here:
+#### Other Python scripts to controls the ADCs and the DACs of the RedPitaya board can be found here:
 - https://github.com/lvillasen/RedPitaya-Signal-Generator-Python
 
 and here
