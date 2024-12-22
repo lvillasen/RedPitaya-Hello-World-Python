@@ -56,7 +56,7 @@ python3 LED_Blinker.py
 ```
 
 
-#### Other Python scripts to controls the ADCs and the DACs of the RedPitaya board can be found here:
+#### Other Python scripts to controls the fast ADCs and the DACs of the RedPitaya board can be found here:
 - https://github.com/lvillasen/RedPitaya-Signal-Generator-Python
 
 - https://github.com/lvillasen/RedPitaya-Nth-Edge-Trigger-App
