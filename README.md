@@ -9,7 +9,7 @@ On any terminal of the RP STEMLab 125-14 copy this Python script to a file named
 ```
 from periphery import MMIO
 regset = MMIO(0x40000030, 0xFF)
-regset.write16(0,3) # write 3 to LED control register
+regset.write16(0,15) # write 15 to LED control register
 print(regset.read16(0)) # read same register 
 regset.close()
 ```
@@ -20,7 +20,7 @@ and run it with
 python3 test.py
 ```
 
-The LEDs on the board will display the number 3 in binary, i.e., 00000011 and the number 3 will be printed on the terminal.
+The LEDs on the board will display the number 3 in binary, i.e., 00001111 and the number 15 will be printed on the terminal.
 
 
 
