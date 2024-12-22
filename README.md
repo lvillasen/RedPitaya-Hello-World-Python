@@ -7,10 +7,11 @@ Extremely simple scripts written in Python to control the RedPitaya board with i
 On any terminal of the RP STEMLab 125-14 copy this Python script to a file named test.py:
 
 ```
-  from periphery import MMIO
-  regset = MMIO(0x40000030, 0xFF)
-  regset.write16(0,3) # write 3 to LED register
-  regset.close()
+from periphery import MMIO
+regset = MMIO(0x40000030, 0xFF)
+regset.write16(0,3) # write 3 to LED control register
+print(regset.read16(0)) # read same register 
+regset.close()
 ```
 
 and run it with 
