@@ -8,8 +8,8 @@ On any terminal of the RP STEMLab 125-14 copy this Python script to a file named
 
 ```
 from periphery import MMIO
-regset = MMIO(0x40000030, 0xFF)
-regset.write16(0,15) # write 15 to LED control register
+regset = MMIO(0x40000000, 0xFF)
+regset.write16(0x30,15) # write 15 to LED control register
 print(regset.read16(0)) # read same register 
 regset.close()
 ```
