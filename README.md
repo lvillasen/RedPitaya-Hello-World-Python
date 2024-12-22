@@ -6,3 +6,6 @@ Extremely simple scripts written in Python to control the RedPitaya board with i
 
 #### Other Python scripts to controls the RedPitaya board can be found here:
 - https://github.com/lvillasen/RedPitaya-Signal-Generator-Python
+and here
+
+- https://github.com/lvillasen/RedPitaya-Generate-Acquire
